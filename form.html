@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processo Seletivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 320px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Processo Seletivo</h1>
+        <form>
+            <label for="nomeCompleto">Nome Completo</label>
+            <input type="text" id="nomeCompleto" name="nomeCompleto">
+
+            <label for="nomeSocial">Nome Social</label>
+            <input type="text" id="nomeSocial" name="nomeSocial">
+
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf">
+            
+            <label for="estrangeiro"> É Estrangeiro? </label>
+             <input type="radio"name="estrangeiro" > Sim
+             <input type="radio"name="estrangeiro" > Não
+
+            <label for="rg">RG</label>
+            <input type="text" id="rg" name="rg">
+
+            <label for="dataNascimento">Data de Nascimento</label>
+            <input type="date" id="dataNascimento" name="dataNascimento">
+
+            <label for="sexo">Sexo</label>
+            <select id="sexo" name="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+
+            <label for="identidadeGenero">Identidade de Gênero</label>
+            <input type="text" id="identidadeGenero" name="identidadeGenero">
+
+            <label for="telefone">Telefone (com DDD)</label>
+            <input type="tel" id="telefone" name="telefone">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+
+            <label for="confirmarEmail">Confirmar Email</label>
+            <input type="email" id="confirmarEmail" name="confirmarEmail">
+
+            <label for="maioridade">É Maior de idade ? </label>
+            <input type="radio"name="maioridade"> Sim
+            <input type="radio"name="maioridade"> Não
+
+            <label for="responsavel">Nome do Responsável</label>
+            <input type="text" id="responsavel" name="responsavel">
+
+            <label for="rgResponsavel">RG do Responsável</label>
+            <input type="text" id="rgResponsavel" name="rgResponsavel">
+
+            <label for="parentescoResponsavel">Grau de Parentesco do Responsável</label>
+            <input type="text" id="parentescoResponsavel" name="parentescoResponsavel">
+
+            <label for="telefoneResponsavel">Telefone do Responsável (com DDD)</label>
+            <input type="tel" id="telefoneResponsavel" name="telefoneResponsavel">
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
