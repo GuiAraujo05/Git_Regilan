@@ -7,3 +7,16 @@ header{
 td{
     color: white;
 }
+
+a{
+    color: black
+    
+}
+
+a:hover{
+    font-size: larger;
+}
+
+a:visited{
+    color: purple;
+}
